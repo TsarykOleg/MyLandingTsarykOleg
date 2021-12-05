@@ -1,0 +1,123 @@
+body {
+  margin: 30px;
+  line-height: 1;
+}
+a {
+  text-decoration: none;
+}
+.container-wrapper {
+  height: 73px;
+}
+
+.logo {
+  font-family: Roboto, sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  color: black;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-burger {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.nav-bar__items {
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #000;
+  display: flex;
+}
+
+.nav-bar__items li {
+  margin-left: 20px;
+}
+
+.menu-burger__button {
+  padding-left: 40px;
+  font-size: 20px;
+}
+
+.intro-text__welcome {
+  padding-bottom: 40px;
+  margin-bottom: 50;
+  color: #ffce55;
+  font-family: Roboto;
+  font-size: 37px;
+  font-weight: 700;
+  position: relative;
+}
+.intro-text__title {
+  color: #fff;
+  background-color: #000;
+  font-family: Poppins;
+  font-size: 57px;
+  font-weight: 600;
+}
+
+.intro-text__text {
+  color: #fff;
+  background-color: #000;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-shadow: 0px 1px 3px black;
+  opacity: 0.75;
+  margin-bottom: 15px;
+}
+.button-more {
+  color: #fff;
+  background-color: black;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  // border-radius: 50%;
+  border-width: 2px;
+  border-color: #fff;
+}
+
+.button-contact {
+  color: #fff;
+  background-color: #ffce55;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  // border-radius: 50%;
+  border-width: 2px;
+  border-color: #fff;
+}
+.intro {
+  display: flex;
+}
+
+.section-team__list {
+  display: flex;
+  justify-content: center;
+}
+
+.section-team__dev {
+  width: 25%;
+}
+
+.team-icons {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  margin: 5px;
+  padding: 5px;
+}
+
+.section-contacts__title {
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
+
+.section-contacts__field {
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+}

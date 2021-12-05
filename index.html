@@ -4,353 +4,506 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    /> -->
+    <link href="fontawesome/css/brands.css" rel="stylesheet" />
+    <link href="fontawesome/css/all.css" rel="stylesheet" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css?family=Poppins%3A600%7CRoboto%3A400%2C500%2C700%2C400italic%2C700italic%7CInconsolata%3A400%2C700&amp;subset=latin%2Clatin-ext&amp;display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins%3A600%7CRoboto%3A400%2C500%2C700%2C400italic%2C700italic%7CInconsolata%3A400%2C700&amp;subset=latin%2Clatin-ext&amp;display=swap"
+    />
     <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- <link rel="stylesheet" href="styles.css.map" /> -->
     <title>Pixova Lite</title>
   </head>
   <body>
-    <!-- Header -->
-    <header>
-      <div class="header">
-        <div class="logo">
-          <a href="https://demo.colorlib.com/pixova-lite">PIXOVA LITE</a>
-        </div>
-        <!-- Navigation -->
-        <div class="menu-container">
-          <div class="menu-conteiner__button">
-            <a href="">***</a>
+    <div class="container">
+      <div class="container-wrapper">
+        <!-- Header -->
+        <header>
+          <div class="container-header">
+            <div class="logo">
+              <a href="https://demo.colorlib.com/pixova-lite">PIXOVA LITE</a>
+            </div>
+            <!-- Navigation -->
+            <div class="menu">
+              <div class="menu-burger">
+                <div class="menu-burger__button">
+                  <a href="">
+                    <i class="fas fa-bars"></i>
+                  </a>
+                </div>
+                <nav class="nav-bar">
+                  <ul class="nav-bar__items">
+                    <li>
+                      <a href="#" title="About">ABOUT</a>
+                    </li>
+                    <li>
+                      <a href="#" title="Recent works">RECENT WORKS</a>
+                    </li>
+                    <li>
+                      <a href="#" title="Testimonials">TESTIMONIALS</a>
+                    </li>
+                    <li>
+                      <a href="#" title="Team">TEAM</a>
+                    </li>
+                    <li>
+                      <a href="#" title="News">NEWS</a>
+                    </li>
+                    <li>
+                      <a href="#" title="Contact">CONTACT</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
           </div>
-          <nav class="nav-bar">
-            <ul class="nav-bar__items">
-              <li>
-                <a href="" title="About">ABOUT</a>
-              </li>
-              <li>
-                <a href="" title="Recent works">RECENT WORKS</a>
-              </li>
-              <li>
-                <a href="" title="Testimonials">TESTIMONIALS</a>
-              </li>
-              <li>
-                <a href="" title="Team">TEAM</a>
-              </li>
-              <li>
-                <a href="" title="News">NEWS</a>
-              </li>
-              <li>
-                <a href="" title="Contact">CONTACT</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+        </header>
       </div>
-    </header>
 
-    <!-- Welcome to Pixova Lite -->
-    <section>
-      <div>
-        <img src="image/header-bg.jpg" width="1500" height="" alt="" />
-      </div>
-      <div>
+      <!-- Welcome to Pixova Lite -->
+      <section class="intro">
         <div>
-          <h1>WELCOME TO PIXOVA LITE</h1>
-          <h1>Free & Modern One-Page Parallax WordPress Theme</h1>
-          <p>
-            Your cool business headline here. You can even insert HTML here &
-            images. Lorem ipsum dolor sit amet lorem dolor sit amet.
-          </p>
+          <div class="image">
+            <img src="image/header-bg.jpg" width="1500" height="" alt="" />
+          </div>
+          <div>
+            <div>
+              <h1 class="intro-text__welcome">WELCOME TO PIXOVA LITE</h1>
+              <h1 class="intro-text__title">
+                Free & Modern One-Page Parallax WordPress Theme
+              </h1>
+              <p class="intro-text__text">
+                Your cool business headline here. You can even
+                <u>
+                  <strong>insert HTML here & images.</strong>
+                </u>
+                Lorem ipsum dolor sit amet lorem dolor sit amet.
+              </p>
+            </div>
+            <a class="button-more" href="">
+              <span>LEARN MORE</span>
+            </a>
+            <a class="button-contact" href="">
+              <span>CONTACT US</span>
+            </a>
+          </div>
         </div>
-        <span>LEARN MORE</span>
-        <span>CONTACT US</span>
-      </div>
-    </section>
-    <!-- We build solutions for your everyday problems. -->
-    <section>
-      <div>
-        <div>
-          <h2>We build solutions for your everyday problems.</h2>
-        </div>
-        <div>
-          <h2>This is what we do in a nutshell</h2>
-        </div>
-      </div>
-    </section>
-    <section>
-      <p>
-        Creative ut tincidunt nibh, varius cursus nunc. Curabitur molestie,
-        metus vel luctus euismod, mi libero laoreet odio, eu dapibus leo tortor
-        sit amet purus. It is a long established fact that a reader will be
-        distracted by the readable content of a page when looking at its layout.
-      </p>
-    </section>
-    <blockquote>
-      <p>
-        Working with Pixova has been an experience for a lifetime. I strongly
-        reccommend these guys for their awesome support. Erlich Bachman, Aviato
-      </p>
-    </blockquote>
-    <div class="circles">
-      <div>
-        <div>71%</div>
-        <h4>WEB DESIGN</h4>
-      </div>
-      <div>
-        <div>89%</div>
-        <h4>WEB DEVELOPMENT</h4>
-      </div>
-      <div>
-        <div>88%</div>
-        <h4>PRINT DESIGN</h4>
-      </div>
-      <div>
-        <div>62%</div>
-        <h4>GRAPHIC IDENTITD</h4>
-      </div>
-    </div>
-    <section class="RecentWorks">
-      <h2>Recent works</h2>
-      <div>It's show and tell time.</div>
-    </section>
-    <section class="WordsOurClients">
-      <h2>Some words from our clients</h2>
-      <div>We don't like to brag, others do it for us.</div>
-    </section>
-    <section>
-      <div>
-        <img src="image/teammembru_burned-92x92.jpg" alt="Katie Parry" />
-      </div>
-      <div>
-        <p>
-          Working with Pixova has been an experience for a lifetime. I strongly
-          reccommend these guys for their awesome support. Lorem ipsum dolor sit
-          amet, consectetur adipiscing elit. Integer volutpat eleifend
-          convallis.
-        </p>
-        <div>
-          <span>KATIE PARRY - HOOLI -</span>
-        </div>
-      </div>
-      <div>
-        <img src="image/teammembru_burned-92x92.jpg" alt="John Doe" />
-      </div>
-      <div>
-        <p>
-          Working with Pixova has been an experience for a lifetime. I strongly
-          reccommend these guys for their awesome support. Lorem ipsum dolor sit
-          amet, consectetur adipiscing elit. Integer volutpat eleifend
-          convallis.
-        </p>
-        <div>
-          <span>JOHN DOE -</span>
-        </div>
-      </div>
-      <div>
-        <img src="image/teammembru_burned-92x92.jpg" alt="Angelo" />
-      </div>
-      <div>
-        <p>
-          Working with Pixova has been an experience for a lifetime. I strongly
-          reccommend these guys for their awesome support. Lorem ipsum dolor sit
-          amet, consectetur adipiscing elit. Integer volutpat eleifend
-          convallis.
-        </p>
-        <div>
-          <span>ANGELO -</span>
-        </div>
-      </div>
-    </section>
-    <section>
-      <article>
-        <div>
-          <h2>Latest news</h2>
-          <div>Straight from our blog</div>
-        </div>
+      </section>
+      <!-- We build solutions for your everyday problems. -->
+      <section class="text-center">
         <div>
           <div>
-            <a
-              href="https://demo.colorlib.com/pixova-lite/2017/09/15/aliquam-mauris-justo-sagittis-vitae-lacus-non/"
-            >
-              <img src="image/scott-webb-51542-250x250.jpg" alt="" />
-            </a>
-            <div>September 15, 2017</div>
-            <h2>
+            <h2>We build solutions for your everyday problems.</h2>
+          </div>
+          <div>
+            <h2>This is what we do in a nutshell</h2>
+          </div>
+        </div>
+      </section>
+      <section>
+        <p>
+          Creative ut tincidunt nibh, varius cursus nunc. Curabitur molestie,
+          metus vel luctus euismod, mi libero laoreet odio, eu dapibus leo
+          tortor sit amet purus. It is a long established fact that a reader
+          will be distracted by the readable content of a page when looking at
+          its layout.
+        </p>
+      </section>
+      <blockquote>
+        <p>
+          Working with Pixova has been an experience for a lifetime. I strongly
+          reccommend these guys for their awesome support. Erlich Bachman,
+          Aviato
+        </p>
+      </blockquote>
+      <div class="circles">
+        <div>
+          <div>71%</div>
+          <h4>WEB DESIGN</h4>
+        </div>
+        <div>
+          <div>89%</div>
+          <h4>WEB DEVELOPMENT</h4>
+        </div>
+        <div>
+          <div>88%</div>
+          <h4>PRINT DESIGN</h4>
+        </div>
+        <div>
+          <div>62%</div>
+          <h4>GRAPHIC IDENTITD</h4>
+        </div>
+      </div>
+      <section class="RecentWorks">
+        <h2>Recent works</h2>
+        <div>It's show and tell time.</div>
+      </section>
+      <section class="WordsOurClients">
+        <h2>Some words from our clients</h2>
+        <div>We don't like to brag, others do it for us.</div>
+      </section>
+      <section>
+        <div>
+          <img src="image/teammembru_burned-92x92.jpg" alt="Katie Parry" />
+        </div>
+        <div>
+          <p>
+            Working with Pixova has been an experience for a lifetime. I
+            strongly reccommend these guys for their awesome support. Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit. Integer volutpat
+            eleifend convallis.
+          </p>
+          <div>
+            <span>KATIE PARRY - HOOLI -</span>
+          </div>
+        </div>
+        <div>
+          <img src="image/teammembru_burned-92x92.jpg" alt="John Doe" />
+        </div>
+        <div>
+          <p>
+            Working with Pixova has been an experience for a lifetime. I
+            strongly reccommend these guys for their awesome support. Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit. Integer volutpat
+            eleifend convallis.
+          </p>
+          <div>
+            <span>JOHN DOE -</span>
+          </div>
+        </div>
+        <div>
+          <img src="image/teammembru_burned-92x92.jpg" alt="Angelo" />
+        </div>
+        <div>
+          <p>
+            Working with Pixova has been an experience for a lifetime. I
+            strongly reccommend these guys for their awesome support. Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit. Integer volutpat
+            eleifend convallis.
+          </p>
+          <div>
+            <span>ANGELO -</span>
+          </div>
+        </div>
+      </section>
+      <section>
+        <article>
+          <div>
+            <h2>Latest news</h2>
+            <div>Straight from our blog</div>
+          </div>
+          <div>
+            <div>
               <a
                 href="https://demo.colorlib.com/pixova-lite/2017/09/15/aliquam-mauris-justo-sagittis-vitae-lacus-non/"
               >
-                Aliquam mauris justo, sagittis vitae lacus non
+                <img src="image/scott-webb-51542-250x250.jpg" alt="" />
               </a>
-            </h2>
-            <p>
-              Aliquam mauris justo, sagittis vitae lacus non, vestibulum
-              sollicitudin nisl.
-            </p>
-          </div>
-          <div>
-            <a
-              href="https://demo.colorlib.com/pixova-lite/2017/09/15/lorem-ipsum-dolor-sit-amet/"
-            >
-              <img src="image/matt-barrett-339981-250x250.jpg" alt="" />
-            </a>
-            <div>September 15, 2017</div>
-            <h2>
+              <div>September 15, 2017</div>
+              <h2>
+                <a
+                  href="https://demo.colorlib.com/pixova-lite/2017/09/15/aliquam-mauris-justo-sagittis-vitae-lacus-non/"
+                >
+                  Aliquam mauris justo, sagittis vitae lacus non
+                </a>
+              </h2>
+              <p>
+                Aliquam mauris justo, sagittis vitae lacus non, vestibulum
+                sollicitudin nisl.
+              </p>
+            </div>
+            <div>
               <a
                 href="https://demo.colorlib.com/pixova-lite/2017/09/15/lorem-ipsum-dolor-sit-amet/"
               >
-                Lorem ipsum dolor sit amet
+                <img src="image/matt-barrett-339981-250x250.jpg" alt="" />
               </a>
-            </h2>
-            <p>
-              Suspendisse varius nulla vel mi fringilla, a pharetra lectus
-              tempus.
-            </p>
-          </div>
-          <div>
-            <a
-              href="https://demo.colorlib.com/pixova-lite/2017/09/15/latest-announcements/"
-            >
-              <img src="image/customize-250x250.jpg" alt="" />
-            </a>
-            <div>September 15, 2017</div>
-            <h2>
+              <div>September 15, 2017</div>
+              <h2>
+                <a
+                  href="https://demo.colorlib.com/pixova-lite/2017/09/15/lorem-ipsum-dolor-sit-amet/"
+                >
+                  Lorem ipsum dolor sit amet
+                </a>
+              </h2>
+              <p>
+                Suspendisse varius nulla vel mi fringilla, a pharetra lectus
+                tempus.
+              </p>
+            </div>
+            <div>
               <a
                 href="https://demo.colorlib.com/pixova-lite/2017/09/15/latest-announcements/"
               >
-                Latest announcements
+                <img src="image/customize-250x250.jpg" alt="" />
               </a>
-            </h2>
-            <p>Our latest free WordPress themes has launched on w.org.</p>
-          </div>
-          <div>
-            <a
-              href="https://demo.colorlib.com/pixova-lite/2017/08/09/hello-world/"
-            >
-              <img src="image/rand-4.jpg" alt="Hello world!" />
-            </a>
-            <div>August 9, 2017</div>
-            <h2>
+              <div>September 15, 2017</div>
+              <h2>
+                <a
+                  href="https://demo.colorlib.com/pixova-lite/2017/09/15/latest-announcements/"
+                >
+                  Latest announcements
+                </a>
+              </h2>
+              <p>Our latest free WordPress themes has launched on w.org.</p>
+            </div>
+            <div>
               <a
                 href="https://demo.colorlib.com/pixova-lite/2017/08/09/hello-world/"
               >
-                Hello world!
+                <img src="image/rand-4.jpg" alt="Hello world!" />
               </a>
-            </h2>
-            <p>
-              Welcome to colorlib.com. This is your first post. Edit or delete
-              it, then start blogging!
-            </p>
+              <div>August 9, 2017</div>
+              <h2>
+                <a
+                  href="https://demo.colorlib.com/pixova-lite/2017/08/09/hello-world/"
+                >
+                  Hello world!
+                </a>
+              </h2>
+              <p>
+                Welcome to colorlib.com. This is your first post. Edit or delete
+                it, then start blogging!
+              </p>
+            </div>
           </div>
-        </div>
-      </article>
-    </section>
-    <section id="team">
-      <div>
+        </article>
+      </section>
+
+      <section class="section-team" id="team">
         <div>
-          <h2>The team</h2>
-          <div>Meet the people that made it all happen.</div>
+          <div>
+            <h2>The team</h2>
+            <div>Meet the people that made it all happen.</div>
+          </div>
+
+          <div class="section-team__list">
+            <div class="section-team__dev">
+              <div>
+                <img src="image/teammembru-150x150.jpg" alt="Angelina Doe" />
+              </div>
+              <div>Angelina Doe</div>
+              <div class="team-icons">
+                <div>
+                  <a href="https://www.facebook.com/colorlib/"
+                    ><i class="fab fa-facebook-square"></i
+                  ></a>
+                </div>
+                <div>
+                  <a href="https://www.dribbble.com/colorlib"
+                    ><i class="fas fa-basketball-ball"></i
+                  ></a>
+                </div>
+                <div>
+                  <a href="mailto:contact@site.com"
+                    ><i class="far fa-envelope"></i
+                  ></a>
+                </div>
+                <div>
+                  <a href="https://www.linkedin.com/"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </div>
+                <div>
+                  <a href="https://pinterest.com/"
+                    ><i class="fab fa-pinterest"></i
+                  ></a>
+                </div>
+                <div>
+                  <a href="https://twitter.com/colorlib"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                </div>
+                <div>
+                  <a href="https://plus.google.com/"
+                    ><i class="fab fa-google-plus-g"></i
+                  ></a>
+                </div>
+                <div>
+                  <a href="https://www.instagram.com/"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="section-team__dev">
+              <div>
+                <img src="image/teammembru2-150x150.jpg " alt="John Doe" />
+              </div>
+              <div>John Doe</div>
+              <div class="team-icons">
+                <div>
+                  <a href="https://www.facebook.com/colorlib/"
+                    ><i class="fab fa-facebook-square"></i
+                  ></a>
+                </div>
+                <div>
+                  <a href="https://www.dribbble.com/colorlib"
+                    ><i class="fas fa-basketball-ball"></i
+                  ></a>
+                </div>
+                <div>
+                  <a href="mailto:contact@site.com"
+                    ><i class="far fa-envelope"></i
+                  ></a>
+                </div>
+                <div>
+                  <a href="https://www.linkedin.com/"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </div>
+                <div>
+                  <a href="https://pinterest.com/"
+                    ><i class="fab fa-pinterest"></i
+                  ></a>
+                </div>
+                <div>
+                  <a href="https://twitter.com/colorlib"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="section-team__dev">
+              <div>
+                <img src="image/teammembru3-150x150.jpg" alt="Angelina Doe" />
+              </div>
+              <div>Angelina Doe</div>
+              <div class="team-icons">
+                <div>
+                  <a href="https://www.facebook.com/colorlib/"
+                    ><i class="fab fa-facebook-square"></i
+                  ></a>
+                </div>
+                <div>
+                  <a href="https://www.dribbble.com/colorlib"
+                    ><i class="fas fa-basketball-ball"></i
+                  ></a>
+                </div>
+                <div>
+                  <a href="mailto:contact@site.com"
+                    ><i class="far fa-envelope"></i
+                  ></a>
+                </div>
+                <div>
+                  <a href="https://twitter.com/colorlib"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="section-team__dev">
+              <div>
+                <img src="image/teammembru4-150x150.jpg" alt="Angelina Doe" />
+              </div>
+              <div>Angelina Doe</div>
+              <div class="team-icons">
+                <div>
+                  <a href="https://www.facebook.com/colorlib/"
+                    ><i class="fab fa-facebook-square"></i
+                  ></a>
+                </div>
+                <div>
+                  <a href="https://www.dribbble.com/colorlib"
+                    ><i class="fas fa-basketball-ball"></i
+                  ></a>
+                </div>
+                <div>
+                  <a href="https://www.linkedin.com/"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </div>
+                <div>
+                  <a href="https://twitter.com/colorlib"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div>
-          <div>
-            <img src="image/teammembru-150x150.jpg" alt="Angelina Doe" />
-          </div>
-          <div>Angelina Doe</div>
-          <div class="team-icons">
-            <div>
-              <a href="https://www.facebook.com/colorlib/">facebook-icon</a>
-            </div>
-            <div>
-              <a href="https://www.dribbble.com/colorlib">dribbble-icon</a>
-            </div>
-            <div>
-              <a href="mailto:contact@site.com">email-icon</a>
-            </div>
-            <div>
-              <a href="https://www.linkedin.com/">linkedin-icon</a>
-            </div>
-            <div>
-              <a href="https://pinterest.com/">pinterest-icon</a>
-            </div>
-            <div>
-              <a href="https://twitter.com/colorlib">twitter-icon</a>
-            </div>
-            <div>
-              <a href="https://plus.google.com/">google-icon</a>
-            </div>
-            <div>
-              <a href="https://www.instagram.com/">instagram-icon</a>
-            </div>
-          </div>
+      </section>
 
-          <div>
-            <img src="image/teammembru2-150x150.jpg " alt="John Doe" />
-          </div>
-          <div>John Doe</div>
-          <div class="team-icons">
-            <div>
-              <a href="https://www.facebook.com/colorlib/">facebook-icon</a>
-            </div>
-            <div>
-              <a href="https://www.dribbble.com/colorlib">dribbble-icon</a>
-            </div>
-            <div>
-              <a href="mailto:contact@site.com">email-icon</a>
-            </div>
-            <div>
-              <a href="https://www.linkedin.com/">linkedin-icon</a>
-            </div>
-            <div>
-              <a href="https://pinterest.com/">pinterest-icon</a>
-            </div>
-            <div>
-              <a href="https://twitter.com/colorlib">twitter-icon</a>
-            </div>
-          </div>
+      <!-- Contact Information -->
 
-          <div>
-            <img src="image/teammembru3-150x150.jpg" alt="Angelina Doe" />
-          </div>
-          <div>Angelina Doe</div>
-          <div class="team-icons">
-            <div>
-              <a href="https://www.facebook.com/colorlib/">facebook-icon</a>
-            </div>
-            <div>
-              <a href="https://www.dribbble.com/colorlib">dribbble-icon</a>
-            </div>
-            <div>
-              <a href="mailto:contact@site.com">email-icon</a>
-            </div>
-            <div>
-              <a href="https://twitter.com/colorlib">twitter-icon</a>
-            </div>
-          </div>
-
-          <div>
-            <img src="image/teammembru4-150x150.jpg" alt="Angelina Doe" />
-          </div>
-          <div>Angelina Doe</div>
-          <div class="team-icons">
-            <div>
-              <a href="https://www.facebook.com/colorlib/">facebook-icon</a>
-            </div>
-            <div>
-              <a href="https://www.dribbble.com/colorlib">dribbble-icon</a>
-            </div>
-            <div>
-              <a href="https://www.linkedin.com/">linkedin-icon</a>
-            </div>
-            <div>
-              <a href="https://twitter.com/colorlib">twitter-icon</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="contact">
-      <div>
+      <section class="section-contacts" id="contacts">
         <div>
           <h3>Contact us</h3>
           <div>And we'll reply in no time</div>
         </div>
-        <div>
+
+        <div class="section-contacts__field">
+          <div>
+            <div>
+              <h3>Adress</h3>
+              <p>Street 221B Baker Street</p>
+            </div>
+            <div>
+              <h3>Customer Support</h3>
+              <p>Phone: 0 332 548 954</p>
+              <p>Email: contact@site.com</p>
+            </div>
+          </div>
+
+          <div>
+            <div>
+              <form action="">
+                <fieldset>
+                  <label for="user_name">Your Name (required)</label>
+                  <br />
+                  <br />
+                  <input type="text" name="user_name" />
+                  <br />
+                  <br />
+                  <label for="email">Your Email (required)</label>
+                  <br />
+                  <br />
+                  <input type="email" name="email" />
+                  <br />
+                  <br />
+                  <label for="subject">Subject</label>
+                  <br />
+                  <br />
+                  <input type="text" name="subject" />
+                  <br />
+                  <br />
+                  <label for="user_message">Your Message</label>
+                  <br />
+                  <br />
+                  <textarea
+                    name="user_message"
+                    id="user_message"
+                    cols="100"
+                    rows="20"
+                  ></textarea>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div>
           <div>
             <h3>Adress</h3>
             <p>Street 221B Baker Street</p>
@@ -360,11 +513,12 @@
             <p>Phone: 0 332 548 954</p>
             <p>Email: contact@site.com</p>
           </div>
-        </div>
-      </div>
-    </section>
+        </div> -->
+      </section>
+    </div>
 
     <!-- Footer -->
+
     <footer>
       <section class="AboutUs">
         <h3>About Us</h3>
@@ -418,7 +572,7 @@
               title="Facebook"
               class="FacebookIcon"
               href="https://www.facebook.com/colorlib/"
-              >facebook-icon
+              ><i class="fab fa-facebook-square"></i>
             </a>
           </li>
           <li>
@@ -426,40 +580,41 @@
               title="Twitter"
               class="TwitterIcon"
               href="https://twitter.com/colorlib/"
-              >Twitter-icon</a
-            >
+              ><i class="fab fa-twitter"></i>
+            </a>
           </li>
           <li>
             <a
               title="Pinterest"
               class="PinterestIcon"
               href="https://www.pinterest.com/colorlib/"
-              >Pinterest-icon</a
             >
+              <i class="fab fa-pinterest"></i>
+            </a>
           </li>
           <li>
             <a
               title="LinkedIn"
               class="LinkedInIcon"
               href="https://www.pinterest.com/colorlib/"
-              >LinkedIn-icon</a
-            >
+              ><i class="fab fa-linkedin-in"></i>
+            </a>
           </li>
           <li>
             <a
               title="YouTube"
               class="YoutubeIcon"
               href="https://www.youtube.com/c/Colorlib"
-              >YouTube-icon</a
-            >
+              ><i class="fab fa-youtube"></i>
+            </a>
           </li>
           <li>
             <a
               title="Instagram"
               class="instagramIcon"
               href="https://www.instagram.com/colorlib/"
-              >Instagram-icon</a
-            >
+              ><i class="fab fa-instagram"></i
+            ></a>
           </li>
         </ul>
       </section>
@@ -468,7 +623,9 @@
           Theme:
           <a href="https://colorlib.com/wp/themes/pixova/">Pixova Lite</a>
           · Made with
-          <span class="HeartIcon"></span>
+          <span class="HeartIcon">
+            <i class="fas fa-heart"></i>
+          </span>
           by
           <a href="https://colorlib.com/">Colorlib</a>
           . © Copyright 2021. All Rights Reserved
