@@ -33,14 +33,6 @@ a {
   flex-direction: row-reverse;
 }
 
-// .nav-bar ul ul {
-//   display: none;
-// }
-
-// .nav-bar li:hover > ul {
-//   display: block;
-// }
-
 .nav-bar__items {
   font-family: Roboto, sans-serif;
   font-size: 13px;
@@ -58,6 +50,10 @@ a {
   font-size: 20px;
 }
 
+.nav-bar__list {
+  color: #000;
+}
+
 .section-intro {
   background: url(image/header-bg.jpg);
   width: 100%;
@@ -66,11 +62,6 @@ a {
   flex-direction: column;
   justify-content: space-between;
 }
-
-// .intro-image::before {
-//   content: "";
-//   z-index: 1;
-// }
 
 .intro-text__welcome {
   text-align: center;
@@ -97,7 +88,6 @@ a {
 
 .intro-text__title {
   color: #fff;
-  // background-color: #000;
   font-family: Poppins;
   font-size: 57px;
   font-weight: 600;
@@ -106,7 +96,6 @@ a {
 
 .intro-text__text {
   color: #fff;
-  // background-color: #000;
   font-family: Roboto, Arial, sans-serif;
   font-size: 20px;
   font-weight: 300;
@@ -133,13 +122,10 @@ a {
   padding-right: 40px;
   padding-bottom: 20px;
   padding-left: 40px;
-  // position: relative;
   color: #fff;
-  // background-color: black;
   font-family: Roboto, Arial, sans-serif;
   font-size: 18px;
   font-weight: 500;
-  // border-radius: 50%;
   border-style: solid;
   border-width: 2px;
   border-color: #fff;
@@ -166,7 +152,6 @@ a {
   font-family: Roboto, Arial, sans-serif;
   font-size: 18px;
   font-weight: 500;
-  // border-radius: 50%;
   border-width: 2px;
   border-color: #fff;
 }
@@ -242,10 +227,119 @@ a {
   line-height: 1.8;
   text-align: center;
 }
+.charts {
+  height: 420px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 50px;
+}
 
-// blockquote {
-//   width: 733px;
-// }
+.chart1 {
+  border-radius: 50%;
+  background: #f2c351;
+  width: 255px;
+  height: 255px;
+  display: flex;
+  justify-content: center;
+}
+.chart1::before {
+  content: "71%";
+  color: #a1b1bc;
+  font-family: Roboto, sans-serif;
+  font-size: 28px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #f9f9f9;
+  width: 93%;
+  height: 93%;
+  align-self: center;
+}
+
+.chart2 {
+  border-radius: 50%;
+  background: #f2c351;
+  width: 255px;
+  height: 255px;
+  display: flex;
+  justify-content: center;
+}
+.chart2::before {
+  content: "89%";
+  color: #a1b1bc;
+  font: Roboto, sans-serif;
+  font-size: 28px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #f9f9f9;
+  width: 93%;
+  height: 93%;
+  align-self: center;
+}
+
+.chart3 {
+  border-radius: 50%;
+  background: #f2c351;
+  width: 255px;
+  height: 255px;
+  display: flex;
+  justify-content: center;
+}
+.chart3::before {
+  content: "88%";
+  color: #a1b1bc;
+  font: Roboto, sans-serif;
+  font-size: 28px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #f9f9f9;
+  width: 93%;
+  height: 93%;
+  align-self: center;
+}
+
+.chart4 {
+  border-radius: 50%;
+  background: #f2c351;
+  width: 255px;
+  height: 255px;
+  display: flex;
+  justify-content: center;
+}
+.chart4::before {
+  content: "62%";
+  color: #a1b1bc;
+  font: Roboto, sans-serif;
+  font-size: 28px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #f9f9f9;
+  width: 93%;
+  height: 93%;
+  align-self: center;
+}
+
+.charts-title {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 50px;
+  color: #333;
+}
 
 .section-team__list {
   display: flex;
