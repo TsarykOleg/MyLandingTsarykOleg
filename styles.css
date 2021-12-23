@@ -653,6 +653,7 @@ a {
   font-weight: 600;
   margin-bottom: 40px;
   margin-top: 15px;
+  margin-left: 15px;
   font-family: Poppins;
   text-align: center;
 }
@@ -672,6 +673,10 @@ a {
   font-family: Roboto;
   text-align: center;
   margin-top: 20px;
+}
+
+.title__news {
+  margin-left: 30px;
 }
 
 .news__text {
