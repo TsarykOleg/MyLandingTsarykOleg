@@ -409,7 +409,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: auto;
+  width: 100%;
 }
 
 // .image_project {
@@ -548,6 +548,8 @@ a {
   flex-direction: row;
   justify-content: center;
   margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .section-news__link {
   color: #333;
@@ -557,6 +559,7 @@ a {
   margin-bottom: 40px;
   margin-top: 15px;
   font-family: Poppins;
+  text-align: center;
 }
 
 .section-news__link:hover {
@@ -572,6 +575,8 @@ a {
   font-size: 14px;
   font-weight: 400;
   font-family: Roboto;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .news__text {
