@@ -408,8 +408,22 @@ a {
 .recent-work__images {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
+  width: auto;
 }
+
+// .image_project {
+//   width: 200px;
+// }
+
+// .image_box {
+//   height: 220px;
+//   width: 220px;
+
+// .image_project_logo {
+//   width: 200px;
+//   font-size: small;
+// }
 
 .section-words__box {
   text-align: center;
@@ -547,6 +561,10 @@ a {
 
 .section-news__link:hover {
   color: #f2c351;
+}
+
+.image__box {
+  width: 400px;
 }
 
 .news__date {
@@ -755,8 +773,12 @@ a {
 
 .section-contacts__field {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 40px;
+}
+
+.section-contacts__box {
+  align-content: center;
 }
 
 .button_message {
@@ -779,7 +801,7 @@ a {
   padding-top: 45px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .footer-about__text {
